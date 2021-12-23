@@ -18,6 +18,6 @@ android {
 
 dependencies {
 }
-
-//发布 Jcenter
-apply from: 'bintray.gradle'
+//
+////发布 Jcenter
+//apply from: 'bintray.gradle'

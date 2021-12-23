@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+
     
     defaultConfig {
         minSdkVersion 15
@@ -21,4 +21,4 @@ dependencies {
 }
 
 //发布 Jcenter
-apply from: 'bintray.gradle'
+//apply from: 'bintray.gradle'
