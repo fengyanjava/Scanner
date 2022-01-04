@@ -2,6 +2,7 @@ package com.shouzhong.scanner.demo;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Point;
@@ -160,7 +161,7 @@ public class ScannerActivity extends AppCompatActivity {
 
         private int laserColor = 0xff008577;// 扫描线颜色
         private int maskColor = 0x60000000;// 阴影颜色
-        private int borderColor = 0xff008577;// 边框颜色
+        private int borderColor = Color.RED;// 边框颜色
         private int borderStrokeWidth = 12;// 边框宽度
         private int borderLineLength = 72;// 边框长度
 
